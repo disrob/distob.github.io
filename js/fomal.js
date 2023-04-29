@@ -3173,10 +3173,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(http://tuchuang.distok.xyz/imgs/2023/04/894d40bf70353a0b.webp);   
-    --darkmode-bg:url(http://tuchuang.distok.xyz/imgs/2023/04/598583014f90d2c2.webp);
-    --mobileday-bg: url(http://tuchuang.distok.xyz/imgs/2023/04/13dfbb002831f449.webp);
-    --mobilenight-bg: url(http://tuchuang.distok.xyz/imgs/2023/04/49994e3658d63f74.webp);
+    --default-bg: url(https://s1.ax1x.com/2023/04/29/p91bnaD.png);   
+    --darkmode-bg:url(https://s1.ax1x.com/2023/04/29/p91biG9.png);
+    --mobileday-bg: url(https://s1.ax1x.com/2023/04/29/p91bnaD.png);
+    --mobilenight-bg: url(https://s1.ax1x.com/2023/04/29/p91biG9.png);
   }`;
 }
 // 切换背景主函数
@@ -3406,7 +3406,7 @@ function createWinbox() {
 <h3>1. 动漫</h3>
 <details class="folding-tag" cyan><summary> 查看动漫背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(http://tuchuang.distok.xyz/imgs/2023/04/ad1b35f4e3c45888.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(http://tuchuang.distok.xyz/imgs/2023/04/f1232a745510cb99.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(http://tuchuang.distok.xyz/imgs/2023/04/0935f78b61223238.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xel4.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xZpF.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xEfU.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xAYT.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xkkV.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xiT0.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xPwq.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xCmn.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xSyj.jpg" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
               </div>
             </details>
 
@@ -3415,7 +3415,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(http://tuchuang.distok.xyz/imgs/2023/04/894d40bf70353a0b.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91x61g.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xBAP.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xw7t.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xM01.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91HvrV.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3423,7 +3423,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(http://tuchuang.distok.xyz/imgs/2023/04/13dfbb002831f449.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xRns.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xgXj.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91HL2n.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
               </div>
             </details>
 
@@ -3447,7 +3447,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91b954.jpg)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91bpaF.jpg)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
               </div>
             </details>
 
