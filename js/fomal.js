@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: 'MVRBZ-5BFHJ-PGHF7-X2XWC-QXQ7H-N3F5M',  // 这里要写你的KEY!!!
+    key: 'GYHBZ-MD7WH-HADDC-W2YDJ-MPAO7-FLFN3',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(31.237760 , 121.502180, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -2784,11 +2784,11 @@ var now = new Date();
 function createtime() {
   // 当前时间
   now.setTime(now.getTime() + 1000);
-  var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
+  var start = new Date("04/01/2023 00:00:00"); // 旅行者1号开始计算的时间
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("08/09/2022 00:00:00");
+  var grt = new Date("04/01/2023 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3173,10 +3173,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://s1.ax1x.com/2023/04/29/p91bnaD.png);   
-    --darkmode-bg:url(https://s1.ax1x.com/2023/04/29/p91biG9.png);
-    --mobileday-bg: url(https://s1.ax1x.com/2023/04/29/p91bnaD.png);
-    --mobilenight-bg: url(https://s1.ax1x.com/2023/04/29/p91biG9.png);
+    --default-bg: url(https://i.imgtg.com/2023/04/29/3yqhF.jpg);   
+    --darkmode-bg:url(https://i.imgtg.com/2023/04/29/3v6Rv.png);
+    --mobileday-bg: url(https://i.imgtg.com/2023/04/29/3yqhF.jpg);
+    --mobilenight-bg: url(https://i.imgtg.com/2023/04/29/3v6Rv.png);
   }`;
 }
 // 切换背景主函数
@@ -3406,7 +3406,7 @@ function createWinbox() {
 <h3>1. 动漫</h3>
 <details class="folding-tag" cyan><summary> 查看动漫背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xel4.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xZpF.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xEfU.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xAYT.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xkkV.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xiT0.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xPwq.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xCmn.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xSyj.jpg" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3msdl.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3msdl.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mdyb.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mdyb.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mcUP.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mcUP.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mS96.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mS96.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mQRF.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mQRF.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mGFD.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mGFD.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yzes.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yzes.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yxoB.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yxoB.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yWyl.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yWyl.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yUWb.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yUWb.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3ybsg.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3ybsg.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yBjP.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yBjP.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3y5R6.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3y5R6.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yqhF.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yqhF.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yaID.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yaID.png)')"></a></div>
               </div>
             </details>
 
@@ -3415,7 +3415,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91x61g.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xBAP.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xw7t.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xM01.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91HvrV.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mfeB.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mfeB.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/30/3mYag.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/30/3mYag.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yOEI.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yOEI.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3yMe1.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3yMe1.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vwaG.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vwaG.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3v3sM.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3v3sM.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vIyr.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vIyr.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vuUc.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vuUc.png)')"></a></div>
               </div>
             </details>
 
@@ -3423,7 +3423,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xRns.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91xgXj.jpg)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91HL2n.png)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3v9IU.png)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3v9IU.png)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vlEp.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vlEp.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vfNj.jpg)" class="imgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vfNj.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3447,7 +3447,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91b954.jpg)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.ax1x.com/2023/04/29/p91bpaF.jpg)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vYax.jpg)" class="pimgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vYax.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vsdt.jpg)" class="pimgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vsdt.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vdvX.jpg)" class="pimgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vdvX.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.imgtg.com/2023/04/29/3vcUi.jpg)" class="pimgbox" onclick="changeBg('url(https://i.imgtg.com/2023/04/29/3vcUi.jpg)')"></a></div>
               </div>
             </details>
 
@@ -3463,7 +3463,7 @@ function createWinbox() {
 <h3>8. 自定义背景</h3>
 <details class="folding-tag" cyan><summary> 设置自定义背景 </summary>
               <div class='content'>
-              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://source.fomal.cc/img/home_bg.webp"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
+              <p><center><input type="text" id="pic-link" size="70%" maxlength="1000" placeholder="请输入有效的图片链接，如 https://i.imgtg.com/2023/04/29/3vIyr.png"></center></p><p><center><button type="button" onclick="getPicture()" style="background:var(--theme-color);width:35%;padding: 5px 0px 7px 0px;border-radius:30px;color:white;line-height:2;">🌈切换背景🌈</button></center></p>
               </div>
             </details>
 

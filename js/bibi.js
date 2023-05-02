@@ -5,6 +5,11 @@ let items = []
 let page = 1
 let Url = 'https://kkapi.fomal.cc/api/ispeak?author=6319fedef46fae97dcfa5ee2&page=' // 记住替换为你的API链接
 
+//http://memos.distok.xyz/api/memo?creatorId=1&tag=日常唠叨&limit=10
+//http://memos.distok.xyz/api/memo?openId=ebf779ce-ffe4-4bc1-85dd-9d8e9f4699e6&page=
+//https://kkapi.fomal.cc/api/ispeak?author=6319fedef46fae97dcfa5ee2&page='
+//http://memos.distok.xyz/api/ispeak?author=ebf779ce-ffe4-4bc1-85dd-9d8e9f4699e6&page=
+
 
 window.addEventListener('DOMContentLoaded', () => {
     getNew();
